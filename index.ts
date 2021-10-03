@@ -1,5 +1,1 @@
-import { webExtensionUtils } from './utils';
-
-export default {
-  webExtensionUtils,
-};
+export * from './utils';
