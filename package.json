@@ -2,7 +2,7 @@
   "name": "webextension-base",
   "version": "0.1.0",
   "description": "Web Extension Base",
-  "main": "",
+  "main": "index.ts",
   "scripts": {
     "lint": "eslint ./utils --ext .ts --cache --format 'node_modules/eslint-formatter-friendly'",
     "lint:fix": "yarn lint --fix",
