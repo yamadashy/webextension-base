@@ -1,0 +1,43 @@
+{
+  "name": "webextension-base",
+  "version": "0.1.0",
+  "description": "Web Extension Base",
+  "main": "",
+  "scripts": {
+    "lint": "eslint ./utils --ext .ts --cache --format 'node_modules/eslint-formatter-friendly'",
+    "lint:fix": "yarn lint --fix",
+    "type-check": "tsc",
+    "preinstall": "typesync || :"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/yamadashy/webextension-base.git"
+  },
+  "author": "yamadashy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yamadashy/webextension-base/issues"
+  },
+  "dependencies": {
+    "loglevel": "^1.7.1"
+  },
+  "devDependencies": {
+    "@types/eslint": "^7.28.0",
+    "@types/eslint-plugin-prettier": "^3.1.0",
+    "@types/prettier": "^2.4.1",
+    "@typescript-eslint/eslint-plugin": "^4.32.0",
+    "@typescript-eslint/parser": "^4.32.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-formatter-friendly": "^7.0.0",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.4.1",
+    "typescript": "^4.4.3",
+    "typesync": "^0.8.0"
+  },
+  "engines": {
+    "node": ">=10",
+    "yarn": "^1.18.0"
+  }
+}
