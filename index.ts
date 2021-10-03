@@ -1,9 +1,5 @@
-import { labeledLog } from './utils/console-logger';
-import { waitElementRender } from './utils/wait-element-render';
-import { isAlreadyRunningExtension } from './utils/extension-running-checker';
+import { webExtensionUtils } from './utils';
 
-export const webExtensionUtils = {
-  labeledLog,
-  waitElementRender,
-  isAlreadyRunningExtension,
-}
+export default {
+  webExtensionUtils,
+};
